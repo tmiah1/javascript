@@ -1,7 +1,12 @@
-let israining = true
-let temperature = 20
-let planet = 'Earth'
+let cash = 30
+let price = 40
+let isStoreopen = true
 
-temperature = temperature + 2
+if(isStoreopen === true) {
+    console.log(givereciept)
+}
 
-console.log(temperature)
+else (isStoreopen === false) {
+    console.log(dontgivereciepttothem)
+}
+
