@@ -1,12 +1,5 @@
-let cash = 30
-let price = 40
-let isStoreopen = true
+let count = 100
 
-if(isStoreopen === true) {
-    console.log(givereciept)
+for (let i = 1; i < 20; i++) {
+    console.log(i + 1 + 1)
 }
-
-else (isStoreopen === false) {
-    console.log(dontgivereciepttothem)
-}
-
