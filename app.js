@@ -1,15 +1,14 @@
-for (let i = 1; i < 20; i++) {
-    if (i % 3 === 0) {
-        console.log(`${i} -> frontend`)
+for (let i = 1; i < 20; ++i) {
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log(`${i} -> Frontend simplified`)
     }
-    if (i % 5 === 0) {
-        console.log(`${i} -> frontend`)
+    else if (i % 3 === 0) {
+        console.log(`${i} -> Frontend`)
     }
-    if (i % 3 === 0) {
-        console.log(`${i} -> frontend`)
+    else if (i % 5 === 0) {
+        console.log(`${i} -> Simplified`)
     }
-    if (i % 3 === 0) {
-        console.log(`${i} -> frontend`)
+    else {
+        console.log(`${i} -> ${i}`)
     }
-
 }
