@@ -1,22 +1,7 @@
-
-const statusRef = document.querySelector(".status")
-
-
-
-
-function getVideo(subscriptionStatus) {
-return new Promise ((resolve, reject) => {
-    if(subscriptionStatus === "VIP"){
-        resolve("showVideo")
-    }
-    else if (subscriptionStatus === "FREE") {
-        resolve("show trailer")
-    }
-    else {
-        reject("no video")
-    }
-
-    })
+function hoursIntoSeconds(hour) {
+    let minutes = hour * 60;
+    let seconds = minute * 60;
+    return seconds
 }
 
-console.log(getSubscriptionStatus())
+console.log(hoursIntoSeconds(2));
