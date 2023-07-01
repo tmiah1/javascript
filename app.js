@@ -1,5 +1,5 @@
 function hoursIntoSeconds(hour) {
-    let seconds = hour * 60 * 60;
+    let seconds = hour * 60 * 50;
     return seconds
 }
 
