@@ -1,6 +1,5 @@
-function hoursIntoSeconds(hour) {
-    let seconds = hour * 60 * 50;
-    return seconds
+function calcAreaOfTriangle(base, height) { 
+return 0.5 * base * height;
 }
 
-console.log(hoursIntoSeconds(2));
+console.log(calcAreaOfTriangle(20, 20));
