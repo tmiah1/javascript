@@ -1,5 +1,5 @@
-function calcAreaOfTriangle(base, height) { 
-return 0.5 * base * height;
+function calcRemainder(num1, num2) { 
+return num1 % num2;
 }
 
-console.log(calcAreaOfTriangle(20, 20));
+console.log(calcRemainder(4, 5));
